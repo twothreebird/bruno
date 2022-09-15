@@ -11,7 +11,7 @@
     },
     "require-dev": {
         "mockery/mockery": "^1.5.1",
-        "orchestra/testbench": "5.*",
+        "orchestra/testbench": "^6",
         "phpunit/phpunit": "~8.0",
         "php-coveralls/php-coveralls": "^2.5"
     },
