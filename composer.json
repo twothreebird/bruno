@@ -7,7 +7,7 @@
     },
     "require": {
         "laravel/framework": "^9",
-        "optimus/architect": "dev-feature/laravel-upgrade"
+        "optimus/architect": "dev-feature/laravel-update"
     },
     "require-dev": {
 
