@@ -6,16 +6,19 @@
         }
     },
     "require": {
-        "laravel/framework": "~6.0|~7.0|~8.0|~9.0",
-        "optimus/architect": "~2.0"
+        "laravel/framework": "^9",
+        "optimus/architect": "dev-feature/laravel-upgrade"
     },
     "require-dev": {
-        "mockery/mockery": "^1.5.1",
-        "orchestra/testbench": "^6",
-        "phpunit/phpunit": "~8.0",
-        "php-coveralls/php-coveralls": "^2.5"
+
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "license": "MIT"
+    "license": "MIT",
+    "repositories": {
+        "twothreebird": {
+            "type": "composer",
+            "url": "https://twothreebird.repo.repman.io"
+        }
+    }
 }
